@@ -22,7 +22,7 @@ pipeline {
         stage ('Publish'){
             steps{
                 sh './mvnw package'
-                // Install the Maven version configured as "M3" and add it to the path uuu uu uuu
+                // Install the Maven version configured as "M3" and add it to the path uuu uu uuu  hhh
             }
 			post {
 				success {
