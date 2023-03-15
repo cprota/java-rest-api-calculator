@@ -15,14 +15,14 @@ pipeline {
 			post {
 				always {
 				    junit '**/target/surefire-reports/TEST-*.xml'
-                     // Junit mettiamo altri info jjj  jjj  iii iii jjjj ii ii  iiii oooo uuu iiiii
+                     // 1
 				}	
             }			
         }
         stage ('Publish'){
             steps{
                 sh './mvnw package'
-                // Install the Maven version configured as "M3" and add itkkkk tooo the pathiikkkk uuu uu uuu  hhh
+                // 2
             }
 			post {
 				success {
