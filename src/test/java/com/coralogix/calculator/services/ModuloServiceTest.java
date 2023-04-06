@@ -15,6 +15,6 @@ public class ModuloServiceTest {
         Result result = service.Mod(4, 2);
 
         // then
-        assertEquals(result.getResult(), 1);
+        assertEquals(result.getResult(), 0);
     }
 }
